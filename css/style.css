@@ -1,0 +1,422 @@
+@media(min-width: 480px){
+@font-face {
+  font-family: 'zousan';
+  src: url(../fonts/002zou-Regular.otf);
+}
+@font-face{
+  font-family: 'tw-cen';
+  src: url(../fonts/tw-cent-mt.TTF);
+}
+
+html {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  max-width: 100vw;
+  overflow: scroll;
+}
+
+
+.zousan {
+  font-family: 'zousan';
+}
+
+.tw-cen {
+  font-family: 'tw-cen';
+}
+.container-fluid {
+  padding: 0;
+}
+
+/************               top               ******************/
+
+.top-pizza {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 10vh;
+  max-width: 100%;
+  height: auto;
+}
+.top-boy {
+  margin-bottom: -1vh;
+}
+
+.overwrap-title {
+  text-align: center;
+  color: #333;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #333;
+  font-size: 4em;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2.5vh;
+  margin-bottom: -5.5vh;
+  z-index: 88;
+}
+.top-girl {
+  margin-top: -1vh;
+}
+.subtitle {
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  margin: 0;
+  width: 100%;
+}
+
+.subtitle h2 {
+  text-align: center;
+  font-size: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.kanamti {
+  text-align: center;
+}
+
+
+.font-grey {
+  color: #333333;
+  -webkit-text-stroke: 0.75px #333;
+}
+
+.font-outline {
+  color: #333;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.75px #333;
+}
+
+
+#scrollsubtitle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle-body {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  color: #333333;
+  font-size: 1.5em;
+  line-height: 3em;
+  letter-spacing: 0.1em;
+  /*font-weight: bolder;*/
+}
+
+.misscon2017title {
+  background-color: pink;
+  min-height: 30vh;
+  max-height: 50vh;
+  height: 40vh;
+}
+
+.misscon2017title h2 {
+  width: 100%;
+  padding-top: 20vh;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.article-link {
+  margin-top: 20vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.introduction {
+  background-color: pink;
+}
+
+.tile-link {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-link .row .col-md-4 {
+  padding: 0;
+}
+
+.asset-triangle {
+  width: 30vw;
+  margin-top: -3vw;
+  margin-right: -28vw;
+}
+
+.rikadai-girl {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.rikadai-girl img {
+  padding-bottom: 4vh;
+  opacity: 1;
+  -webkit-transition: .2s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.rikadai-girl img:hover {
+  opacity: 0.5;
+  color: pink;
+}
+
+.rikadai-boy {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.rikadai-boy img {
+  opacity: 1;
+  padding-bottom: 4vh;
+  -webkit-transition: .2s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.rikadai-boy img:hover {
+  opacity: 0.5;
+}
+
+
+.link h2 {
+  padding-left: 5vh;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+}
+
+.team {
+  width: 100%;
+  padding-left: 5vh;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+}
+
+.specialthanks-margin {
+  width: 100%;
+  background-color: pink;
+}
+
+.specialthanks {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+}
+
+.specialthanks h2 {
+}
+
+.specialthanks p {
+  font-size: 2em;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.specialthanks p:first-child {
+  font-size: 1.5em;
+}
+
+.kotaro-margin {
+  background-color: pink;
+  padding-top: 10vh;
+}
+
+.kotaro {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  line-height: 1.5em;
+}
+
+.kotaro p:last-child{
+  text-align: right;
+}
+
+.kotaro .department {
+  margin-top: 5vh;
+  font-size: 1.7em;
+}
+
+/************               footer               ******************/
+.footer {
+  margin: 0;
+  width: 100%;
+  background-color: pink;
+  height: 2vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5vh;
+}
+.footer p {
+  font-size: 0.8em;
+  color: white;
+}
+
+
+
+/************               header               ******************/
+
+.header {
+  width: 100%;
+  margin: 0;
+  background-color: pink;
+  min-height: 10vh;
+  max-height: 20vh;
+  height: 15vh;
+}
+
+.header a {
+  font-size: 45px;
+  width: 100%;
+  padding-top: 2vh;
+  margin: 0;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.pagenation {
+  padding-top:20vh;
+}
+
+.pagenation ul li {
+  list-style:none;
+}
+/************               article               ******************/
+
+.miss06-doc {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.miss06-doc p {
+  margin-bottom: 5vh;
+}
+.miss06-doc img {
+  margin-left: -5vw;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+}
+
+.miss06-doc .interviewer {
+  color: #6F6F6F
+}
+
+
+/***********               photo              ******************/
+
+  .photos {
+    margin-top: 5vh;
+    margin-left: 40vh;
+    margin-right: 40vh;
+  }
+  .photos img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .photos p {
+    height: 700px;
+  }
+
+  .photos div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 20%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+/************               shop               *****************/
+.shop {
+  margin-left: 8vw;
+  margin-right:8vw;
+}
+.shop-title {
+  width: 100%;
+}
+.shop-title p{
+  font-size: 3em;
+}
+
+.shop-subtitle {
+  width: 100%;
+}
+.shop-subtitle p {
+  font-size: 1em;
+}
+
+.shop-mainimg img {
+  margin: 0 auto;
+}
+.shop-comment {
+  width: 100%;
+  padding-top:3vh;
+  padding-bottom:3vh;
+  padding-left: 2vw;
+  line-height: 2em;
+}
+
+.shop-imgs{
+  width: 100%;
+}
+
+.shop-imgs img {
+  max-width: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.kanda {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.tabelog-link {
+  width: 100%;
+  padding-top:10vh;
+}
+
+
+
+
+
+.photos p {
+  height: 700px;
+}
+
+.photos div {
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  margin-bottom: 20%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+}
