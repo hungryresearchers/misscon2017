@@ -268,11 +268,11 @@ html {
 }
 
 .header a {
-  font-size: 1.3em;
+  font-size: 0.9em;
   width: 100%;
   padding-top: 5vh;
   margin: 0;
-  line-height: 0.7em;
+  line-height: 0.8em;
   color: white;
   vertical-align: middle;
   text-align: center;
@@ -286,50 +286,56 @@ html {
   list-style:none;
 }
 /************               article               ******************/
-@media query {
 
-}
-/*.photo {
-  width: 80%;
-  padding-left: 20vw;
-  padding-right: 20vw;
-}*/
 
-.c7{
-  padding: 0 auto;
+.article-introduction .profile {
+  width: 100%;
+  padding-top: 5vh;
+  background-color: pink;
+  padding-bottom: 5vh;
 }
 
-.article-photo {
-  width: 80vw;
-  height: auto;
-}
-.article-photo img {
-  text-align: center;
+.article-introduction .profile img {
+  margin-left: 5vw;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  float: right;
+  margin-right: 5vw;
 }
 
+.interviewer-profile {
+  margin-top: 5vh;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
 
-.miss06-doc {
+.article-introduction p{
+  padding-left: 5vw;
+}
+
+.article-body {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.miss06-doc p {
+.article-body p {
   margin-bottom: 5vh;
   font-size: 0.7em;
 }
 
-.miss06-doc h1 {
+.article-body h1 {
   font-size: 2em;
 }
-.miss06-doc img {
+.article-body img {
   margin-left: -11vw;
   border-radius: 50%;
   width: 11vw;
   height: 11vw;
 }
 
-.miss06-doc .interviewer {
+.article-body .interviewer {
   color: #6F6F6F
 }
 
