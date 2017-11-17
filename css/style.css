@@ -32,7 +32,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 10vh;
   max-width: 100%;
   height: auto;
 }
@@ -201,7 +200,7 @@ html {
 }
 
 .specialthanks {
-  width: 60%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10vh;
@@ -211,16 +210,23 @@ html {
 .specialthanks h2 {
 }
 
+.specialthanks .photographer {
+  font-size: 1.5em;
+}
 .specialthanks p {
-  font-size: 2em;
+  padding-top: 0.5vh;
+  font-size: 1.0em;
+  letter-spacing: 0.1em;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2vh;
 }
 
-.specialthanks p:first-child {
-  font-size: 1.5em;
+.special-profile {
+  padding-left: 3vw;
 }
+
 
 .kotaro-margin {
   background-color: pink;
@@ -228,11 +234,13 @@ html {
 }
 
 .kotaro {
-  width: 80vw;
+  width: 85vw;
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  line-height: 1.5em;
+  line-height: 1.7em;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
 }
 
 .kotaro p:last-child{
@@ -249,14 +257,20 @@ html {
   margin: 0;
   width: 100%;
   background-color: pink;
-  height: 2vh;
+  height: 10vh;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5vh;
 }
 .footer p {
-  font-size: 0.8em;
+  font-size: 1em;
   color: white;
+  padding-top: 1vh;
+  margin: 0;
+}
+
+.footer a {
+  c
 }
 
 
