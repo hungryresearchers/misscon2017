@@ -27,12 +27,22 @@ html {
 
 
 /************               top               ******************/
+
+.food-illust {
+  display: none;
+  width: 25vw;
+  height: 18vw;
+  z-index: -50;
+  margin-top: -2.5vh;
+  margin-left: -2vh;
+}
 .top-pizza {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: auto;
-  margin-bottom: -3vh;
+  padding-top: 12vh;
+  margin-bottom: -8vh;
   z-index: -5;
 }
 
@@ -89,7 +99,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 30vh;
   padding-bottom: 10vh;
   color: #4e4e4e;
   font-size: 4vw;
@@ -211,6 +221,11 @@ html {
 
 .team img {
   margin-bottom: 10vh;
+}
+
+.kotaro-margin {
+  margin: 0;
+  width: 100%;
 }
 .kotaro {
   background-color: pink;
@@ -356,18 +371,18 @@ html {
 /***********               photo              ******************/
 
   .photos {
+    width: 100%;
     margin-top: 5vh;
     margin-left: 7vw;
     margin-right: 7vw;
   }
 
   .photos img {
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
   }
-  .photos p {
-    height: 200px;
-  }
+
 
   .photos div {
     display: block;

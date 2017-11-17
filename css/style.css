@@ -28,12 +28,21 @@ html {
 
 /************               top               ******************/
 
+.food-illust {
+  width: 7vw;
+  height: 5vw;
+  z-index: -50;
+  margin-top: -2vh;
+  margin-left: 0vw;
+}
+
 .top-pizza {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 100%;
+  width: 100vw;
   height: auto;
+  margin-bottom: -53vh;
 }
 .top-boy {
   margin-bottom: -1vh;
@@ -56,10 +65,12 @@ html {
   margin-top: -1vh;
 }
 .subtitle {
-  padding-top: 10vh;
+  margin-top: -50vh;
+  padding-top: 0vh;
   padding-bottom: 20vh;
   margin: 0;
   width: 100%;
+  padding-top: -50vh;
 }
 
 .subtitle h2 {
@@ -94,10 +105,11 @@ html {
 }
 
 .subtitle-body {
+  /*border: 1px solid #000;*/
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 5vh;
+  margin-top: 42.5vh;
   padding-top: 5vh;
   padding-bottom: 10vh;
   color: #333333;
@@ -109,6 +121,7 @@ html {
 
 .misscon2017title {
   background-color: pink;
+
   min-height: 30vh;
   max-height: 50vh;
   height: 40vh;
@@ -129,7 +142,9 @@ html {
 }
 
 .introduction {
+  width: 100%;
   background-color: pink;
+
 }
 
 .tile-link {
@@ -148,6 +163,7 @@ html {
 }
 
 .rikadai-girl {
+  width: 100%;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -165,6 +181,7 @@ html {
 }
 
 .rikadai-boy {
+  width: 100%;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -185,6 +202,7 @@ html {
   padding-left: 5vh;
   padding-bottom: 10vh;
   padding-top: 3vh;
+  z-index: 50;
 }
 
 .team {
@@ -200,15 +218,13 @@ html {
 }
 
 .specialthanks {
-  width: 40%;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10vh;
   padding-top: 3vh;
 }
 
-.specialthanks h2 {
-}
 
 .specialthanks .photographer {
   font-size: 1.5em;
@@ -230,10 +246,13 @@ html {
 
 .kotaro-margin {
   background-color: pink;
+  margin: 0px;
   padding-top: 10vh;
+  width: 100%;
 }
 
 .kotaro {
+  max-width: 100%;
   width: 85vw;
   margin-left: auto;
   margin-right: auto;
@@ -307,6 +326,27 @@ html {
 
 .pagenation ul li {
   list-style:none;
+}
+
+.portfolio-link {
+  width: 100%;
+  margin: 0;
+  background-color: grey;
+  height: 10vh;
+}
+
+.portfolio-link a {
+  font-size: 1.5em;
+  width: 100%;
+  padding-top: 3vh;
+  padding-left: 1vw;
+  text-align: left;
+  color: white;
+}
+
+.portfolio-link a:hover {
+  text-decoration: none;
+  opacity: 0.5;
 }
 /************               article               ******************/
 
