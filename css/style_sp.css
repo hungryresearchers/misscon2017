@@ -304,6 +304,14 @@ html {
   margin-right: 5vw;
 }
 
+.interviewer-profile img {
+  margin-left: 2vw;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  float: left;
+}
+
 .interviewer-profile {
   margin-top: 5vh;
   margin-right: 5vw;
@@ -312,6 +320,11 @@ html {
 
 .article-introduction p{
   padding-left: 5vw;
+}
+.interview-pic {
+  width: 100%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .article-body {
@@ -328,7 +341,7 @@ html {
 .article-body h1 {
   font-size: 2em;
 }
-.article-body img {
+.article-body p img {
   margin-left: -11vw;
   border-radius: 50%;
   width: 11vw;
