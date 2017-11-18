@@ -485,6 +485,13 @@ html {
 
 
 /************               shop               *****************/
+
+.shop-info {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
 .shop {
   margin-left: 8vw;
   margin-right:8vw;

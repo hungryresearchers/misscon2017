@@ -301,7 +301,26 @@ html {
   list-style:none;
 }
 /************               article               ******************/
+.portfolio-link {
+  width: 100%;
+  margin: 0;
+  background-color: grey;
+  height: 6vh;
+}
 
+.portfolio-link a {
+  font-size: 1em;
+  width: 100%;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  text-align: left;
+  color: white;
+}
+
+.portfolio-link a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
 
 .article-introduction .profile {
   width: 100%;
@@ -422,6 +441,24 @@ html {
 
 
 /************               shop               *****************/
+.shop-info {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+
+/*.shop-info div:first-child{
+  width: 250px;
+}*/
+
+#map_canvas13164468 {
+  width: 250px !important;
+}
+.shop-info iframe {
+  width: 75vw;
+}
+
 .shop {
   margin-left: 8vw;
   margin-right:8vw;
