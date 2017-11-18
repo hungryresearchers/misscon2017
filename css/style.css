@@ -405,10 +405,36 @@ html {
   margin-right: 1vw;
   width: 4vw;
   height: 4vw;
+  border: 3px solid pink;
 }
 
+.article-body h2 {
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-weight: bolder;
+}
+
+.article-body .other {
+  margin-left: -5vw;
+}
+
+.article-body a{
+  color: inherit;
+}
+
+.article-body a:hover{
+  opacity: 0.5;
+}
 .article-body .interviewer {
   color: #6F6F6F
+}
+.article-body .interviewer img{
+  border: none;
+}
+
+.article-body .interviewer a {
+  color: pink;
 }
 
 

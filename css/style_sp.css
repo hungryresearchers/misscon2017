@@ -350,23 +350,44 @@ html {
 
 .article-body p {
   margin-bottom: 5vh;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
+.article-body h2 {
+  font-size: 2em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-weight: bolder;
+}
 .article-body h1 {
   font-size: 2em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
+
+
 .article-body p img {
   margin-left: -11vw;
   border-radius: 50%;
   width: 11vw;
   height: 11vw;
+  border: 3px solid pink;
+}
+
+.article-body .other {
+  margin-left: -11vw;
 }
 
 .article-body .interviewer {
   color: #6F6F6F
 }
+.article-body .interviewer img{
+  border: none;
+}
 
+.article-body .interviewer a {
+  color: pink;
+}
 
 /***********               photo              ******************/
 
