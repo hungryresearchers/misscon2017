@@ -380,6 +380,17 @@ html {
   float: left;
 }
 
+.article-read {
+  /*width: 100%;*/
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  line-height: 2.4em;
+  color: #6f6f6f;
+  font-size: 0.8em;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
+}
+
 .article-introduction p{
   padding-left: 5vw;
 }

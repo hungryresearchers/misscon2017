@@ -279,13 +279,13 @@ html {
   background-color: pink;
   min-height: 10vh;
   max-height: 20vh;
-  height: 15vh;
+  height: 10vh;
 }
 
 .header a {
   font-size: 0.9em;
   width: 100%;
-  padding-top: 5vh;
+  padding-top: 4vh;
   margin: 0;
   line-height: 0.8em;
   color: white;
@@ -329,6 +329,10 @@ html {
   padding-bottom: 5vh;
 }
 
+.article-introduction {
+  font-size: 0.8em;
+}
+
 .article-introduction .profile img {
   margin-left: 5vw;
   border-radius: 50%;
@@ -352,6 +356,17 @@ html {
   margin-bottom: 5vh;
 }
 
+
+.article-read {
+  width: 100%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  line-height: 2.4em;
+  color: #6f6f6f;
+  font-size: 0.1em;
+  margin-bottom: 5vh;
+  margin-left: 0vw;
+}
 .article-introduction p{
   padding-left: 5vw;
 }
